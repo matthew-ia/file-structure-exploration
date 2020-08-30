@@ -1,0 +1,22 @@
+// Utilities – Index
+// =========================
+//
+// Import this as @import 'utilities'
+
+// Import Bootstrap utilties map first
+@import '../vendor/twbs/utilities';
+
+// Override Bootstrap's utilities map
+// This allows you to keep Bootstrap's original for reference,
+// but allow for modificatoin and extension
+@import 'utilities';
+
+// Import your custom (or default) utility class configuration
+// Uncomment this import if you want to define a subset of the utility classes to generate
+// @import 'config';
+
+// Import Bootstrap Utilities API
+// This generates the utility classes defined in `config`
+// using Bootstrap's `generate-utility` mixin 
+@import '../vendor/twbs/generate-utility';
+@import '../vendor/twbs/api';

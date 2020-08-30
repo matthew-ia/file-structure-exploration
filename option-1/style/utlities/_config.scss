@@ -1,0 +1,49 @@
+// Utilities Config
+// =========================
+
+// Define a subset of the main utilities map for your project
+// This map will determine the utility classes that are generated
+// 
+// Leave this file unimported and/or blank to use the entire set of utilities within `./utilities.scss`
+
+// It is important to use the same variable name here that is used
+// in `./utilities.scss` and `../vendor/twbs/utilities.scss`
+/* e.g. 
+$utilities: map-get-multiple(
+  $utilities,
+  (
+    "display",
+    "order",
+    "flex",
+    "flex-direction",
+    "flex-grow",
+    "flex-shrink",
+    "flex-wrap",
+    "justify-content",
+    "align-items",
+    "align-content",
+    "align-self",
+    "margin",
+    "margin-x",
+    "margin-y",
+    "margin-top",
+    "margin-right",
+    "margin-bottom",
+    "margin-left",
+    "negative-margin",
+    "negative-margin-x",
+    "negative-margin-y",
+    "negative-margin-top",
+    "negative-margin-right",
+    "negative-margin-bottom",
+    "negative-margin-left",
+    "padding",
+    "padding-x",
+    "padding-y",
+    "padding-top",
+    "padding-right",
+    "padding-bottom",
+    "padding-left",
+  )
+);
+*/
